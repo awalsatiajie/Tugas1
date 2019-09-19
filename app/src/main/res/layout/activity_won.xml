@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/won"
+    android:background="#f3661f"
+    tools:context=".Won">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Selamat Kamu Menang!!!"
+        android:textStyle="bold"
+        android:layout_marginTop="27dp"
+        android:textAlignment="center"
+        android:textColor="@color/biru"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/medal" />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/congo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCORE"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
+
+</LinearLayout>

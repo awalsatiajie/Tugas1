@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".scrollGambar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relatif1"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff">
+        <ImageView
+            android:src="@drawable/margintop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</RelativeLayout>
+<ScrollView
+android:layout_below="@+id/relatif1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/scroll1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p1"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p1"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p1"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p1"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p1"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p1"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="490dp"
+        android:src="@drawable/isi1" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="490dp"
+        android:src="@drawable/isi2" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="490dp"
+        android:src="@drawable/isi3" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="490dp"
+        android:src="@drawable/isi1" />
+
+</LinearLayout>
+</ScrollView>
+
+<ImageView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:src="@drawable/marginbotom"
+android:layout_alignParentBottom="true"
+android:background="#ffffff"/>
+</RelativeLayout>

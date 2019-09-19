@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="20dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/login2"
+    tools:context=".ViewPegawai">
+
+    <TextView
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/labelHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Gaji Pegawai" />
+
+    <TextView
+        android:layout_below="@id/labelHeader"
+        android:layout_marginTop="20dp"
+        android:id="@+id/labelID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="ID Pegawai" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/labelID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:id="@+id/editTextId" />
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_marginTop="7dp"
+        android:layout_below="@id/editTextId"
+        android:id="@+id/labelNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Pegawai" />
+
+    <EditText
+        android:layout_below="@id/labelNama"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:id="@+id/editTextName" />
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_marginTop="7dp"
+        android:id="@+id/labelJabatan"
+        android:layout_below="@id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jabatan" />
+
+    <EditText
+        android:layout_below="@id/labelJabatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:id="@+id/editTextDesg" />
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_marginTop="7dp"
+        android:layout_below="@id/editTextDesg"
+        android:id="@+id/labelGaji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaji" />
+
+    <EditText
+        android:layout_below="@id/labelGaji"
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSalary" />
+
+    <Button
+        android:layout_below="@id/editTextSalary"
+        android:layout_marginTop="40dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/gambarupdategaji"
+        android:layout_marginLeft="76dp"
+        android:layout_marginStart="76dp"
+        android:id="@+id/buttonUpdate" />
+
+    <Button
+        android:layout_below="@id/editTextSalary"
+        android:layout_toEndOf="@id/buttonUpdate"
+        android:layout_toRightOf="@id/buttonUpdate"
+        android:layout_alignBottom="@id/buttonUpdate"
+        android:layout_alignTop="@id/buttonUpdate"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/delete"
+        android:id="@+id/buttonDelete" />
+
+</RelativeLayout>

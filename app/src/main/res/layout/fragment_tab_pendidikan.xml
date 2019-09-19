@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabPendidikan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/labelSD"
+                android:text="Sekolah Dasar"
+                android:textColor="@color/biru"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+                <EditText
+                    android:layout_below="@id/labelSD"
+                    android:id="@+id/txtSD"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:inputType="textMultiLine"
+                    android:enabled="false"
+                    android:textColor="#000000"
+                    android:maxLines="6"
+                    android:textSize="15dp"
+                    android:text="SDIT Al - Muzammil"/>
+
+            <TextView
+                android:id="@+id/labelSMP"
+                android:text="SMP / Sederajat"
+                android:textColor="@color/biru"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+                <EditText
+                    android:layout_below="@id/labelSMP"
+                    android:id="@+id/txtSMP"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:inputType="textMultiLine"
+                    android:enabled="false"
+                    android:textColor="#000000"
+                    android:maxLines="6"
+                    android:textSize="15dp"
+                    android:text="SMP Negeri 23 Bekasi"/>
+
+            <TextView
+                android:id="@+id/labelSMA"
+                android:text="SMA / Sederajat"
+                android:textColor="@color/biru"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+                <EditText
+                    android:layout_below="@id/labelSMA"
+                    android:id="@+id/txtSMA"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:inputType="textMultiLine"
+                    android:enabled="false"
+                    android:textColor="#000000"
+                    android:maxLines="6"
+                    android:textSize="15dp"
+                    android:text="SMA Negeri 16 Bekasi"/>
+
+            <TextView
+                android:id="@+id/labelUniv"
+                android:text="Universitas"
+                android:textColor="@color/biru"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+                <EditText
+                    android:layout_below="@id/labelUniv"
+                    android:id="@+id/txtUniv"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:textColor="#000000"
+                    android:inputType="textMultiLine"
+                    android:maxLines="6"
+                    android:textSize="15dp"
+                    android:text="STMIK Mercusuar"/>
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

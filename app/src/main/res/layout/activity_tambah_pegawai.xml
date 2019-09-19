@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login2"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".TambahPegawai">
+
+    <TextView
+        android:id="@+id/label1"
+        android:textColor="@color/biru"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data Gaji Pegawai" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label1"
+        android:hint="ID Pegawai"
+        android:layout_marginTop="30dp"
+        android:id="@+id/editTextId"
+        android:inputType="number"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/editTextId"
+        android:hint="Nama Pegawai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextName"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/editTextName"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Jabatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextDesg" />
+
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/editTextDesg"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Gaji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSalary" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/editTextSalary"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/addcircle"
+        android:id="@+id/buttonAdd" />
+
+</RelativeLayout>

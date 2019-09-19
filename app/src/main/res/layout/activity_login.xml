@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/login2">
+
+    <TextView
+        android:id="@+id/labelLogin"
+        android:text="Login First"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="35dp"/>
+
+    <ImageView
+        android:id="@+id/gambarMercusuar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/logomercusuar1"
+        android:layout_below="@id/labelLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambarMercusuar"
+        android:layout_marginTop="30dp"
+        android:focusable="true"
+        android:textColor="@color/hitam"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Username"
+        android:background="@android:drawable/editbox_background_normal"
+        />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtUsername"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/hitam"
+        android:ems="10"
+        android:hint="Password"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <TextView
+        android:id="@+id/labelKesempatan"
+        android:text="Kesempatan Anda : "
+        android:layout_below="@id/txtPass"
+        android:textSize="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/hitam"/>
+
+    <TextView
+        android:id="@+id/labeltigakali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 X "
+        android:textSize="19dp"
+        android:layout_below="@id/txtPass"
+        android:layout_toRightOf="@id/labelKesempatan"
+        android:layout_toEndOf="@id/labelKesempatan"
+        android:layout_alignTop="@id/labelKesempatan"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_below="@id/labelKesempatan"
+        android:layout_alignEnd="@id/txtPass"
+        android:layout_alignRight="@id/txtPass"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textSize="17sp"
+        android:background="#a9acee"/>
+
+</RelativeLayout>

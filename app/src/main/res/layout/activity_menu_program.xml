@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="0dp"
+    android:background="@drawable/login2"
+    tools:context=".MenuProgram">
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="STMIK Mercusuar"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp"
+        />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Menu Program Materi Android"
+        android:textSize="18sp"
+        android:textColor="@color/hitam"
+        android:layout_below="@id/txt2"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_below="@id/txt"
+        android:layout_toLeftOf="@id/btn1"
+        android:layout_toStartOf="@id/btn1"
+        android:layout_alignTop="@id/btn1"
+        android:layout_alignBottom="@id/btn1"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:linksClickable="true"
+        android:background="@drawable/scroll1"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_below="@id/txt"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/scrollgambar"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_below="@id/txt"
+        android:layout_toEndOf="@id/btn1"
+        android:layout_toRightOf="@id/btn1"
+        android:layout_alignBottom="@id/btn1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:linksClickable="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/kalkulator"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_below="@+id/btn"
+        android:layout_marginTop="5dp"
+        android:linksClickable="true"
+        android:layout_alignStart="@id/btn"
+        android:layout_alignLeft="@id/btn"
+        android:layout_alignRight="@id/btn"
+        android:layout_alignEnd="@id/btn"
+        android:background="@drawable/gambaruts"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_below="@id/btn1"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@id/btn1"
+        android:layout_alignStart="@id/btn1"
+        android:layout_alignEnd="@id/btn1"
+        android:layout_alignRight="@id/btn1"
+        android:background="@drawable/gambarhitungbmi"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_below="@id/btn2"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@id/btn2"
+        android:layout_alignStart="@id/btn2"
+        android:layout_alignEnd="@id/btn2"
+        android:layout_alignRight="@id/btn2"
+        android:background="@drawable/gambarfollowus"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:background="@drawable/gambarinfokantorx"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/btn3"
+        android:layout_alignLeft="@id/btn3"
+        android:layout_alignStart="@id/btn3"
+        android:layout_alignEnd="@id/btn3"
+        android:layout_alignRight="@id/btn3"/>
+
+    <Button
+        android:id="@+id/btn7"
+        android:background="@drawable/gambargames"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/btn4"
+        android:layout_alignLeft="@id/btn4"
+        android:layout_alignStart="@id/btn4"
+        android:layout_alignEnd="@id/btn4"
+        android:layout_alignRight="@id/btn4"/>
+
+    <Button
+        android:id="@+id/btn8"
+        android:background="@drawable/gambarlogoutx"
+        android:layout_below="@id/btn5"
+        android:layout_alignTop="@id/btn7"
+        android:layout_alignBottom="@id/btn7"
+        android:layout_toRightOf="@id/btn7"
+        android:layout_toEndOf="@id/btn7"
+        android:layout_alignStart="@id/btn5"
+        android:layout_alignLeft="@id/btn5"
+        android:layout_alignEnd="@id/btn5"
+        android:layout_alignRight="@id/btn5"
+        android:layout_width="108dp"
+        android:layout_height="108dp" />
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambarmenulevel"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/label1"
+        android:text="Pilih Levelmu"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/btneasy"
+        android:background="@drawable/gambarsenyum"
+        android:layout_below="@id/label1"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnNormal"
+        android:background="@drawable/gambarnormal"
+        android:layout_below="@id/btneasy"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnHard"
+        android:background="@drawable/gambarsad"
+        android:layout_below="@id/btnNormal"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+</RelativeLayout>

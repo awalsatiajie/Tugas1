@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Kelompok 1</string>
+    <string name="pembuat">Biodata Developer</string>
+    <string name="title_activity_scrolling">About Us</string>
+    <string name="large_text">
+        "Kelompok 1 merupakan aplikasi yang dibuat oleh,\n"
+        "kelompok 1 yang dimaksudkan untuk memenuhi nilai\n"
+        "ujian akhir mata kuliah mobile programming di STMIK Mercusuar, Jakarta,\n\n"
+
+        "Kelompok 1 merupakan kelompok yang paling pertama di antara kelompok yang ada,\n"
+        "pada mata kuliah mobile programming di STMIK Mercusuar, Jakarta.\n\n"
+
+        "Adapun anggota kelompoknya adalah: \n"
+        "1. Arini Puspita Sari.\n"
+        "2. Reza Valendri.\n"
+        "3. Awal Satiajie.\n\n"
+
+        "Kelompok 1 diketuai oleh Arini Puspita Sari yang mengambil jurusan sistem informasi,"
+        "yang mana memiliki nim 1657201034.\n\n"
+
+        "Adapun yang bertindak sebagai analisa program dan perancangan database"
+        "adalah Reza Valendri dari jurusan teknik informatika,"
+        "yang mana memiliki nim 1655201010.\n\n"
+
+        "Sedangkan yang bertindak sebagai developer, perancangan fungsi dan tampilan"
+        "adalah Awal Satiajie dari jurusan teknik informatika,"
+        "yang mana memiliki nim 1655201063.\n\n"
+
+        "Kami mengerjakan aplikasi ini dalam waktu yang tidak terlalu lama, kurang lebih"
+        "sekitar 1,5 bulan yang lalu. Proyek pembuatan aplikasi ini dimulai dari Bulan Desember"
+        "2018 lalu.\n\n"
+
+        "Kami sangat bangga dengan hasil yang kami peroleh yaitu terciptanya aplikasi ini"
+        "dan berhasil mengupload aplikasi ini ke google play store.\n\n"
+
+        "Kami ucapkan terima kasih yang sebesar-besarnya kepada piahk yang bersangkutan"
+        "dalam pembuatan aplikasi ini, dan kami berharap mendapatkan nilai sempurna dalam"
+        "ujian akhir mata kuliah mobile programming di STMIK Mercusuar.\n\n"
+
+        "Adapun contact kami adalah, sebagai berikut:\n"
+        "1. Arini Puspita Sari: 085921836175\n"
+        "2. Reza Valendri: 082110082133 \n"
+        "3. Awal Satiajie: 088802204095\n"
+
+    </string>
+
+    <string name="perhatian">
+        "Aplikasi ini dibuat oleh Mahasiswa STMIK Mercusuar, yaitu:.\n\n"
+        "1. Arini Puspita Sari.\n"
+        "2. Reza Valendri.\n"
+        "3. Awal Satiajie.\n\n"
+        "Aplikasi ini diperuntukkan sebagai nilai UAS dari mata kuliah mobile programming.\n\n"
+        "Adapun untuk fungsi informasi kantor bagian penggajian tidak akan bisa di akses jika tidak satu jaringan dengan server.\n"
+    </string>
+    <string name="dilarang">
+        "Dilarang Keras Mengcopy dan Membajak Aplikasi, Tanpa Persetujuan Pembuat.\n"
+    </string>
+
+    <string name="judulscroll">Beberapa Brand Yang Bekerjasama Dengan Kami</string>
+    <string name="bawah">Terima Kasih</string>
+    <string name="title_activity_tabuts">Tabuts</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alamat">"Indonesia, Jawa Barat, Bekasi, Jati Rasa, Villa Jati Rasa, Jln. Kutilang Block C13 No. 9, Rt 10 Rw 12"</string>
+    <string name="minat">"Saya berminat pada bidang teknologi dan informatika dikarenakan saat ini saya sedang berkuliah di bidang tersebut"</string>
+    <string name="skill">"Saya cukup menguasa Ms. Excel, Word dan power point dan saya cukup memahami beberapa bahasa pemrograman dan juga beberapa bahasa pemrograman web"</string>
+    <string name="title_activity_daftar_biodata_pegawai">DaftarBiodataPegawai</string>
+
+    <string name="text_accounts">All Accounts</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Input Nama Lengkap</string>
+    <string name="error_message_email">Input Email Yang Valid</string>
+    <string name="error_message_age">Input Age</string>
+    <string name="error_message_password">Input Password</string>
+    <string name="success_message">Pendaftaran Berhasil</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Sudah Ada</string>
+    <string name="error_password_match">Password Tidak Cocok</string>
+    <string name="error_valid_email_password">Kesalahan Pada Email Atau Password</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Kelompok 1</string>
+
+</resources>

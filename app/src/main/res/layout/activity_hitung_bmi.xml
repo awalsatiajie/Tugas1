@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hitungBMI"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:text="Berat"
+        android:textColor="@color/biru"
+        android:textSize="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/txtBeratBadan"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Isikan Berat Badan (kg)"
+        android:inputType="number"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:text="Tinggi Badan"
+        android:textColor="@color/biru"
+        android:textSize="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/txtTinggiBadan"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Isikan Tinggi Badan (m)"
+        android:inputType="number|numberDecimal"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/btnCekBMI"
+        android:layout_width="210dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="CEK BMI"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtStatusBadan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status Badan"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login2"
+    tools:context=".MenuCrud">
+
+    <TextView
+        android:id="@+id/label1"
+        android:text="INFORMASI KANTOR"
+        android:textColor="@color/biru"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnTambahPegawai"
+        android:background="@drawable/gambarpenggajian"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/label1"
+        android:layout_width="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_height="150dp" />
+
+    <Button
+        android:id="@+id/btnLihatPegawai"
+        android:background="@drawable/gambardaftargaji"
+        android:layout_toEndOf="@id/btnTambahPegawai"
+        android:layout_toRightOf="@id/btnTambahPegawai"
+        android:layout_alignBottom="@id/btnTambahPegawai"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <Button
+        android:id="@+id/btnBiodataPegawai"
+        android:background="@drawable/gambarbiodatapegawai"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@id/btnTambahPegawai"
+        android:layout_alignLeft="@id/btnTambahPegawai"
+        android:layout_below="@id/btnTambahPegawai"
+        android:layout_alignRight="@id/btnTambahPegawai"
+        android:layout_alignEnd="@id/btnTambahPegawai"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <Button
+        android:id="@+id/btnUser"
+        android:visibility="gone"
+        android:text="Daftar User"
+        android:layout_below="@id/btnLihatPegawai"
+        android:layout_toRightOf="@id/btnBiodataPegawai"
+        android:layout_toEndOf="@id/btnBiodataPegawai"
+        android:layout_alignStart="@id/btnLihatPegawai"
+        android:layout_alignLeft="@id/btnLihatPegawai"
+        android:layout_alignTop="@id/btnBiodataPegawai"
+        android:layout_alignBottom="@id/btnBiodataPegawai"
+        android:layout_alignRight="@id/btnLihatPegawai"
+        android:layout_alignEnd="@id/btnLihatPegawai"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+</RelativeLayout>

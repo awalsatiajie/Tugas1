@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".scrollGambarku">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relatif1"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:background="#fba775">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txt1"
+                android:textColor="@color/hitam"
+                android:textSize="20dp"
+                android:gravity="top|center_horizontal"
+                android:text="Beberapa Brand Yang Bekerjasama Dengan kami"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@+id/relatif1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="290dp"
+                android:layout_marginLeft="13dp"
+                android:src="@drawable/gambar1" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="290dp"
+                android:layout_marginLeft="13dp"
+                android:src="@drawable/gambar2" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="290dp"
+                android:layout_marginLeft="13dp"
+                android:src="@drawable/gambar3" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="290dp"
+                android:layout_marginLeft="13dp"
+                android:src="@drawable/gambar4" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="290dp"
+                android:layout_marginLeft="13dp"
+                android:src="@drawable/gambar5" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="290dp"
+                android:layout_marginLeft="13dp"
+                android:src="@drawable/gambar6" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

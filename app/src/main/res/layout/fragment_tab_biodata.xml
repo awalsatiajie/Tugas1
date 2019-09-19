@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabBiodata"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Nama"
+                android:textColor="@color/biru"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/labelNama"
+                />
+
+                <EditText
+                    android:layout_below="@id/labelNama"
+                    android:id="@+id/txtMinat"
+                    android:enabled="false"
+                    android:textColor="#000000"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:textSize="17dp"
+                    android:text="Awal Satiajie"
+                    />
+
+            <TextView
+                android:text="Jenis Kelamin"
+                android:textColor="@color/biru"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/labelJenkel"
+                />
+
+                <EditText
+                    android:layout_below="@id/labelJenkel"
+                    android:id="@+id/txtJenkel"
+                    android:layout_width="320dp"
+                    android:enabled="false"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:textSize="17dp"
+                    android:text="Laki - Laki"
+                    />
+
+            <TextView
+                android:id="@+id/labelTTL"
+                android:textColor="@color/biru"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="Tempat Tanggal Lahir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_below="@id/labelTTL"
+                    android:id="@+id/txtTTL"
+                    android:layout_width="320dp"
+                    android:enabled="false"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:textSize="17dp"
+                    android:text="Bekasi, 16 September 1998"
+                    />
+
+            <TextView
+                android:id="@+id/labelStatus"
+                android:textColor="@color/biru"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="Status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_below="@id/labelStatus"
+                    android:id="@+id/txtStatus"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:textSize="17dp"
+                    android:enabled="false"
+                    android:textColor="#000000"
+                    android:text="Belum Menikah"/>
+
+            <TextView
+                android:id="@+id/labelAgama"
+                android:textColor="@color/biru"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="Agama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_below="@id/labelAgama"
+                    android:id="@+id/txtAgama"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:textColor="#000000"
+                    android:textSize="17dp"
+                    android:text="Islam"
+                    />
+
+            <TextView
+                android:id="@+id/labelWarga"
+                android:textColor="@color/biru"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="Kewarnegaraan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_below="@id/labelWarga"
+                    android:id="@+id/txtKewarnegaraan"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:enabled="false"
+                    android:textColor="#000000"
+                    android:layout_marginTop="0dp"
+                    android:textSize="17dp"
+                    android:text="Indonesia"
+                />
+
+            <TextView
+                android:id="@+id/labelAlamat"
+                android:textColor="@color/biru"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="Alamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_below="@id/labelAlamat"
+                    android:id="@+id/txtAlamat"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:inputType="textMultiLine"
+                    android:maxLines="5"
+                    android:textSize="17dp"
+                    android:enabled="false"
+                    android:textColor="#000000"
+                    android:text="@string/alamat"
+                />
+
+            <TextView
+                android:id="@+id/labelNohp"
+                android:textColor="@color/biru"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="No. Hp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_below="@id/labelNohp"
+                    android:id="@+id/txtNohp"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:textColor="#000000"
+                    android:inputType="number|numberDecimal"
+                    android:text="089673811593"
+                    android:textSize="17dp"
+                />
+
+            <TextView
+                android:id="@+id/labelEmail"
+                android:textColor="@color/biru"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_below="@id/labelEmail"
+                    android:id="@+id/txtEmail"
+                    android:layout_width="320dp"
+                    android:enabled="false"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="awal.satiajie@gmail.com"
+                    android:textSize="17dp"
+                />
+
+            <TextView
+                android:layout_marginTop="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

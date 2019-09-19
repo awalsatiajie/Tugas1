@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.awal.awalsatiaje.tugas1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuProgram" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CalculatorAngka" />
+        <activity android:name=".scrollGambar" />
+        <activity android:name=".scrollGambarku" />
+        <activity android:name=".testDulu" />
+        <activity
+            android:name=".Tabuts"
+            android:label="@string/pembuat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".hitungBMI" />
+        <activity android:name=".Follower" />
+        <activity android:name=".Login" />
+        <activity android:name=".Menu" />
+        <activity android:name=".Won" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".Normal" />
+        <activity android:name=".Hard" />
+        <activity android:name=".Easy" />
+        <activity android:name=".MenuCrud" />
+        <activity android:name=".TambahPegawai" />
+        <activity android:name=".ViewAllPegawai" />
+        <activity android:name=".ViewPegawai" />
+        <activity
+            android:name=".biodatapegawai.DaftarBiodataPegawai"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".biodatapegawai.TambahBiodata" />
+        <activity android:name=".loginregister.LoginRegister" />
+        <activity android:name=".loginregister.DaftarUser" />
+        <activity android:name=".loginregister.Register" />
+    </application>
+
+</manifest>
